@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.cta-emoji {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+}
+
+.cta-button {
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.rating-logo {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.cta-rating-main {
+  width: 100% !important;
+}
+
+
+.fade-in {
+  animation: fadeInAnimation 1s ease-in-out;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
