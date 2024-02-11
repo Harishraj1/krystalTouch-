@@ -47,7 +47,7 @@ const Rating = () => {
 
           {showThankYou ? (
             <h3 className="w-full mt-10 mb-6 text-xl font-normal text-gray-500">
-              Thank you for rating!
+              Thank you for Shopping with us !
             </h3>
           ) : (
             <>
