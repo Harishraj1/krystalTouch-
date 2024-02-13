@@ -57,7 +57,7 @@ const Rating = () => {
               <div className="flex flex-col items-center justify-center">
                 <RadioGroupRating />
                 <button
-                  className="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5  mr-2 my-9 w-full cta-button"
+                  className="text-white bg-green-600 hover:bg-green-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5  mr-2 my-9 w-full cta-button"
                   onClick={handleYesClick}
                 >
                   Done

@@ -9,10 +9,7 @@ const App = () => {
  
 
   return (
-    <main>
-    <Rating/>
-
-    </main>
+    <main><Rating/></main>
   );
 };
 
